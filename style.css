@@ -1,1 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff8f3;
+  padding-top: 15px;
+  margin: 0 20px;
+}
+img {
+  max-width: 100%;
+}
 
+/* Common Button Style */
+.common-button {
+  background-color: #fd6e0a;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 15px;
+  color: #fff8f3;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  border: 2px solid #fd6e0a;
+}
+
+.common-out-line-button {
+  background-color: transparent;
+  border: 2px solid #fd6e0a;
+  padding: 10px 25px;
+  border-radius: 15px;
+  color: #fd6e0a;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  border: 2px solid #fd6e0a;
+}
+
+/* nav Style Start */
+nav {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  /* padding-left: 40px;
+    padding-right: 40px;  */
+}
+.header-Logo h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.header-link-item ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px;
+}
+.header-link-item ul li,
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 5px 10px;
+}
+.header-link-item ul li a:hover {
+  background-color: #fd6e0a;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.header-link-item ul li a.active {
+  background-color: #fd6e0a;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.header-button button:hover {
+  background-color: transparent;
+  border: 2px solid #fd6e0a;
+  border-radius: 15px;
+  color: #fd6e0a;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+/* nav Style End */
+
+/* Hero Section Design Start */
+
+.main-hero-container {
+  padding-top: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.developer-text {
+  width: 15%;
+}
+.developer-text h2 {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 35px;
+  font-size: 45px;
+  transform: rotate(270deg);
+  color: #ffffff;
+  text-shadow:
+    2px 2px 0 #fd6e0a,
+    2px -2px 0 #fd6e0a,
+    -2px 2px 0 #fd6e0a,
+    -2px -2px 0 #fd6e0a,
+    2px 0px 0 #fd6e0a,
+    0px 2px 0 #fd6e0a,
+    -2px 0px 0 #fd6e0a,
+    0px -2px 0 #fd6e0a;
+}
+.left-main-container {
+  width: 45%;
+  padding-right: 25px;
+}
+.subheading {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+.left-main-container h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+  padding: 15px 0 10px 0;
+  font-family: "Open Sans", sans-serif;
+}
+.text-area {
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 20px;
+}
+
+.left-button-container {
+  display: flex;
+  gap: 30px;
+}
+.right-main-container {
+  width: 40%;
+  background-image: url(./Images/header_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Hero Section Design End */
