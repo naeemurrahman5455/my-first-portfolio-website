@@ -160,3 +160,391 @@ a {
 }
 
 /* Hero Section Design End */
+
+
+/* About Me Section Design Start  */
+
+.about-main{
+  margin-top: 60px;
+  width:100%;
+  gap: 40px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-heading{
+  width: 50%;
+    margin: auto;
+}
+.about-heading h2{
+  font-size: 35px;
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 15px;
+
+}
+.about-heading p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+.about-child-2{
+  width: 97%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 20px 5px 20px;
+  gap: 10px;
+  padding-bottom: 50px;
+}
+
+.about-name, .about-email, .date-of-birth, .about-location{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 10px;
+  /* padding: 25px 20px 25px 20px; */
+  /* padding:15px 10px 15px 10px ; */
+  height: 150px;
+  width: 300px;
+  background-color: #ffffff;
+  text-align: center;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+/* About Me Section Design End  */
+
+/* What I do section design Star */
+
+.child-What-i-do-section1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.child-21{
+  width: 50%;
+}
+
+.child-What-i-do-section2{
+  width: 100%;
+}
+
+.child-What-i-do-section2{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  gap: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .what-cards{
+  padding: 20px 25px 20px 25px;
+  background-color: #ffffff;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  border-radius: 10px;
+ }
+.fa-js, .fa-node, .fa-python, .fa-react{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+ .what-icon .fa-js, .fa-node, .fa-python, .fa-react{
+  font-size: 35px;
+  color: #FD6E0A;
+  height: 60px;
+  width: 60px;
+  background-color: #ffffff;
+  text-align: center;
+  box-shadow: 0px 15px 15px -3px rgba(0,0,0,0.2);
+  border-radius: 10px;
+ }
+ 
+.Vanilla-JavaScript, .Angular, .Node, .Python, h2{
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 10px;
+}
+.Vanilla-JavaScript, .Angular, .Node, .Python, p{
+  padding-bottom: 20px;
+  text-align: justify;
+}
+/* What I do section design End */
+
+
+/* summary of My Resume Section Design Start */
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+/* Section */
+
+.resume-section{
+    padding:100px 0;
+}
+
+/* Heading */
+
+.section-title{
+    text-align:center;
+    margin-bottom:70px;
+}
+
+.section-title span{
+    color: #FD6E0A;
+    font-weight:600;
+    letter-spacing:1px;
+    text-transform:uppercase;
+}
+
+.section-title h2{
+    font-size:42px;
+    margin:15px 0;
+    color:#222;
+    font-family: "Open Sans", sans-serif;
+}
+
+.section-title p{
+    max-width:650px;
+    margin:auto;
+    color:#666;
+    line-height:1.8;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+/* Two Column */
+
+.resume-wrapper{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:50px;
+}
+
+.column-title{
+    font-size:30px;
+    margin-bottom:30px;
+    color:#222;
+}
+
+/* Card */
+
+.resume-card{
+    background:#fff;
+    padding:15px;
+    margin-bottom:25px;
+    border-radius:18px;
+    /* border-left:5px solid #6C63FF; */
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+    transition:.35s ease;
+}
+
+.resume-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+.resume-card h3{
+    font-size:22px;
+    color:#222;
+    margin-bottom:10px;
+}
+
+.resume-card h4{
+    color:#FD6E0A;
+    font-size:18px;
+    margin-bottom:15px;
+    font-weight:600;
+}
+
+.resume-card p{
+    color:#666;
+    line-height:1.8;
+}
+
+/* Responsive */
+
+@media(max-width:992px){
+
+.resume-wrapper{
+    grid-template-columns:1fr;
+}
+
+.section-title h2{
+    font-size:34px;
+}
+
+.column-title{
+    text-align:center;
+}
+
+}
+
+@media(max-width:576px){
+
+.resume-section{
+    padding:70px 0;
+}
+
+.section-title h2{
+    font-size:28px;
+}
+
+.resume-card{
+    padding:25px;
+}
+
+.resume-card h3{
+    font-size:20px;
+}
+
+}
+/* summary of My Resume Section Design End */
+
+/* Footer Design Start */
+.footer{
+    background:#fff8f3;
+    color:#fff;
+    padding:80px 0 25px;
+}
+
+.footer-content{
+    display:grid;
+    grid-template-columns:2fr 1fr 1.5fr;
+    gap:60px;
+    margin-bottom:60px;
+}
+
+.footer-logo h2{
+    font-size:36px;
+    color:#FD6E0A;
+    margin-bottom:20px;
+}
+
+.footer-logo p{
+    color:black;
+    line-height:1.8;
+    max-width:400px;
+}
+
+.footer-links h3,
+.footer-contact h3{
+    font-size:24px;
+    margin-bottom:25px;
+}
+
+.footer-links ul{
+    list-style:none;
+}
+
+.footer-links ul li{
+    margin-bottom:15px;
+}
+
+.footer-links a{
+    color:black;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.footer-links a:hover{
+    color: black;
+    padding-left:8px;
+}
+
+.footer-contact p{
+    color: black;
+    margin-bottom:12px;
+}
+
+.social-links{
+    display:flex;
+    gap:15px;
+    margin-top:25px;
+    flex-wrap:wrap;
+}
+
+.social-links a{
+    width:45px;
+    height:45px;
+    border:1px solid rgba(255,255,255,.15);
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    color:black;
+    transition:.3s;
+}
+
+.social-links a:hover{
+    background:#FD6E0A;
+    border-color:#7B61FF;
+    transform:translateY(-5px);
+}
+
+.footer-bottom{
+    border-top:1px solid rgba(255,255,255,.08);
+    padding-top:25px;
+    text-align:center;
+}
+
+.footer-bottom p{
+    color: black;
+    font-size:15px;
+}
+
+@media(max-width:992px){
+
+.footer-content{
+    grid-template-columns:1fr;
+    text-align:center;
+}
+
+.footer-logo p{
+    margin:auto;
+}
+
+.social-links{
+    justify-content:center;
+}
+
+}
+
+@media(max-width:576px){
+
+.footer{
+    padding:60px 0 20px;
+}
+
+.footer-logo h2{
+    font-size:30px;
+}
+
+.footer-links h3,
+.footer-contact h3{
+    font-size:22px;
+}
+
+}
+
+
+
+
+
+/* Footer Design End */
